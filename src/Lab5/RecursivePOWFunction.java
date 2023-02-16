@@ -19,7 +19,7 @@ public class RecursivePOWFunction {
     }
 
     public static int power(int base, int power) {
-        if (power != power-1) {
+        if (power != power) {
 
             // recursive call to power()
             return (base * power(base, power - 1));
